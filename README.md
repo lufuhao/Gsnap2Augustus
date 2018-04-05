@@ -2,13 +2,13 @@
 
 ## Descriptions:
 
-  2-step gsnap-augustus to improve the performace
+  2-step gsnap-augustus to improve *ab initio* prediction
 
-1. Map your reads to your genome, merge and sort BAM to --bam1
+1. GSNAP map reads to genome, merge and sort BAM to --bam1
 
 2. Execuate Function 1-3 to generate -o3ex
 
-3. Map your reads to -o3ex, merge and sort BAM to --bam2
+3. GSNAP map reads to -o3ex, merge and sort BAM to --bam2
 
 4. Execuate Function 4-5
 
@@ -21,9 +21,9 @@
 >  Augustus: augustus, bam2hints, \$AUGUSTUS_CONFIG_PATH, 
 >            intron2exex.pl, samMap.pl, bam2wig, wig2hints.pl
 >
->  samtools: https://github.com/samtools/
+>  samtools: [https://github.com/samtools/]<https://github.com/samtools/>
 >
->  bamutils: https://github.com/statgen/bamUtil
+>  bamutils: [https://github.com/statgen/bamUtil]<https://github.com/statgen/bamUtil>
 >
 >  bam_splitNreads.pl: https://github.com/lufuhao/bam_splitNreads
 >
