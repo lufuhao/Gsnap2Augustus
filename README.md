@@ -18,14 +18,15 @@
 
 >  Linux: cp, cat, tee, grep, sort, perl
 
->  Augustus: augustus, bam2hints, \$AUGUSTUS_CONFIG_PATH, 
+>  [Augustus](http://bioinf.uni-greifswald.de/augustus/)
+>            augustus, bam2hints, \$AUGUSTUS_CONFIG_PATH, 
 >            intron2exex.pl, samMap.pl, bam2wig, wig2hints.pl
 >
->  samtools: [https://github.com/samtools/]<https://github.com/samtools/>
+>  [samtools](https://github.com/samtools/)
 >
->  bamutils: [https://github.com/statgen/bamUtil]<https://github.com/statgen/bamUtil>
+>  [bamutils](https://github.com/statgen/bamUtil)
 >
->  bam_splitNreads.pl: https://github.com/lufuhao/bam_splitNreads
+>  [bam_splitNreads.pl](https://github.com/lufuhao/bam_splitNreads)
 >
 >  bamverify: included
 
