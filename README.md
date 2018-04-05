@@ -1,12 +1,17 @@
 # Gsnap2Augustus
 
 ## Descriptions:
+
   2-step gsnap-augustus to improve the performace
 
-*  1. Map your reads to your genome, merge and sort BAM to --bam1
-*  2. Execuate Function 1-3 to generate -o3ex
-*  3. Map your reads to -o3ex, merge and sort BAM to --bam2
-*  4. Execuate Function 4-5
+1. Map your reads to your genome, merge and sort BAM to --bam1
+
+2. Execuate Function 1-3 to generate -o3ex
+
+3. Map your reads to -o3ex, merge and sort BAM to --bam2
+
+4. Execuate Function 4-5
+
 >    Note: do Step 2 & 4 in the same folder
 
 ## Requirements:
@@ -63,7 +68,11 @@
 ## Author:
 
 >  Fu-Hao Lu
+>
 >  Post-Doctoral Scientist in Micheal Bevan laboratory
+>
 >  Cell and Developmental Department, John Innes Centre
+>
 >  Norwich NR4 7UH, United Kingdom
+>
 >  E-mail: Fu-Hao.Lu@jic.ac.uk
