@@ -26,7 +26,7 @@
 >
 >  [bamutils](https://github.com/statgen/bamUtil)
 >
->  [bam_splitNreads.pl](https://github.com/lufuhao/bam_splitNreads)
+>  bam_remove_CIGAR_N.pl: included
 >
 >  bamverify: included
 
