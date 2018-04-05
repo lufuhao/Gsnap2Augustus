@@ -1,0 +1,66 @@
+#!/bin/bash
+
+
+###HELP message########################
+help()
+{
+cat<<HELP
+
+bamverify bam_file
+
+version: 20150508
+
+Require:
+	samtools
+	Linux
+
+Description:
+    verify bam file intact or not
+
+Options:
+    -h    Print this help
+    -a    multiple bamfile
+
+Example:
+    bamverify my.bam
+
+Author:
+    Fu-Hao Lu
+    Post-Doctoral Scientist in Micheal Bevan laboratory
+    Cell and Developmental Department, John Innes Centre
+    Norwich NR4 7UH, United Kingdom
+    E-mail: Fu-Hao.Lu@jic.ac.uk
+HELP
+exit 0
+}
+
+[ -z "$1" ] && help
+[ "$1" = "-h" ] || [ "$1" = "--help" ] && help
+
+all_file=0
+while [ -n "$1" ];do
+  case "$1" in
+    -h) help;shift 1;;
+    -a) all_file=1;shift 1;;
+    --) shift;break;;
+    -*) echo "Error: no sun option $1. -h for help"; exit 1;;
+    *) break;;
+  esac
+done
+
+for file in $@; do
+  message=`samtools view -h $file | head -n 1 2>/dev/null`
+  if [[ "$message" =~ [^@*] ]]; then
+    echo -e "Intact:\t $file"
+    if [ $all_file -eq 0 ]; then
+      exit 0
+    fi
+  else
+    echo -e "Not INTACT:\t $file"
+    if [ $all_file -eq 0 ]; then
+      exit 1
+    fi
+  fi
+done
+
+exit 0
