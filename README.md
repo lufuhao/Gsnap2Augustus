@@ -20,8 +20,11 @@
   bamverify: included
 
 ## Options:
+
 >  -h    [Opt] Print this help message
+>
 >  -f    [Msg] Function
+>
 >          1 - bam2hints
 >          2 - augustus
 >          3 - aug1 to exex
