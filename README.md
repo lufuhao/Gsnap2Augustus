@@ -16,13 +16,18 @@
 
 ## Requirements:
 
-  Linux: cp, cat, tee, grep, sort, perl
-  Augustus: augustus, bam2hints, \$AUGUSTUS_CONFIG_PATH, 
-            intron2exex.pl, samMap.pl, bam2wig, wig2hints.pl
-  samtools: https://github.com/samtools/
-  bamutils: https://github.com/statgen/bamUtil
-  bam_splitNreads.pl: https://github.com/lufuhao/bam_splitNreads
-  bamverify: included
+>  Linux: cp, cat, tee, grep, sort, perl
+
+>  Augustus: augustus, bam2hints, \$AUGUSTUS_CONFIG_PATH, 
+>            intron2exex.pl, samMap.pl, bam2wig, wig2hints.pl
+>
+>  samtools: https://github.com/samtools/
+>
+>  bamutils: https://github.com/statgen/bamUtil
+>
+>  bam_splitNreads.pl: https://github.com/lufuhao/bam_splitNreads
+>
+>  bamverify: included
 
 ## Options:
 
