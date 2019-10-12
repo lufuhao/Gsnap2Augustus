@@ -1,5 +1,7 @@
 # Gsnap2Augustus
 
+RRID: [SCR_017555](https://scicrunch.org/resolver/RRID:SCR_017555)
+
 ## Descriptions:
 
   2-step gsnap-augustus to improve *ab initio* prediction
